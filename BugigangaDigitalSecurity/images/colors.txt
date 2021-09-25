@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-1-hex { color: #F2AEBB; }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-2-hex { color: #A3D9C5; }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-3-hex { color: #BFD9CD; }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-4-hex { color: #F2D9D0; }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-5-hex { color: #F2C2C2; }
+
+/* Color Theme Swatches in RGBA */
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-1-rgba { color: rgba(242, 174, 186, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-2-rgba { color: rgba(162, 216, 196, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-3-rgba { color: rgba(190, 216, 204, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-4-rgba { color: rgba(242, 217, 208, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-5-rgba { color: rgba(242, 193, 193, 1); }
+
+/* Color Theme Swatches in HSLA */
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-1-hsla { color: hsla(348, 72, 81, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-2-hsla { color: hsla(157, 41, 74, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-3-hsla { color: hsla(151, 25, 79, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-4-hsla { color: hsla(16, 57, 88, 1); }
+.A-soft-cloud-background-with-a-pastel-colored-orange-to-blue-gradient.-5-hsla { color: hsla(0, 65, 85, 1); }

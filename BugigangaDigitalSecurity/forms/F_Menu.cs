@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace BugigangaDigitalSecurity
 {
-    public partial class Form1 : Form
+    public partial class F_Menu : Form
     {
-        public Form1()
+        public F_Menu()
         {
             InitializeComponent();
         }
-
     }
 }
