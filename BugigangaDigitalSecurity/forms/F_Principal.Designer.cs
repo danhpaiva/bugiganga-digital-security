@@ -32,6 +32,8 @@ namespace BugigangaDigitalSecurity
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             this.btn_welcome = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_welcome
@@ -42,7 +44,7 @@ namespace BugigangaDigitalSecurity
             this.btn_welcome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_welcome.Font = new System.Drawing.Font("Roboto Condensed", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_welcome.ForeColor = System.Drawing.Color.White;
-            this.btn_welcome.Location = new System.Drawing.Point(524, 504);
+            this.btn_welcome.Location = new System.Drawing.Point(534, 512);
             this.btn_welcome.Name = "btn_welcome";
             this.btn_welcome.Size = new System.Drawing.Size(200, 50);
             this.btn_welcome.TabIndex = 0;
@@ -64,11 +66,22 @@ namespace BugigangaDigitalSecurity
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::BugigangaDigitalSecurity.Properties.Resources.detective_icon;
+            this.pictureBox1.Location = new System.Drawing.Point(486, 127);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(300, 300);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_welcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -77,6 +90,7 @@ namespace BugigangaDigitalSecurity
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bugiganga Digital Security";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -85,6 +99,7 @@ namespace BugigangaDigitalSecurity
 
         private System.Windows.Forms.Button btn_welcome;
         private System.Windows.Forms.Button btn_close;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
