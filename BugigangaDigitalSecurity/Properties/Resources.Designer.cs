@@ -61,6 +61,16 @@ namespace BugigangaDigitalSecurity.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon _3099517_detective_icon {
+            get {
+                object obj = ResourceManager.GetObject("_3099517_detective_icon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap detective_icon {

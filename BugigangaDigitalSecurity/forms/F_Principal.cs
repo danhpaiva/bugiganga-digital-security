@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace BugigangaDigitalSecurity
@@ -20,6 +21,18 @@ namespace BugigangaDigitalSecurity
         private void btn_close_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void pb_principal_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start("MicrosoftEdge", "https://www.linkedin.com/in/danhpaiva/");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Contato: danpaiva@live.com");
+            }
         }
     }
 }

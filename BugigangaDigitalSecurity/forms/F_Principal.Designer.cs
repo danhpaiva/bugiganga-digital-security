@@ -32,8 +32,9 @@ namespace BugigangaDigitalSecurity
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Principal));
             this.btn_welcome = new System.Windows.Forms.Button();
             this.btn_close = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pb_principal = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_principal)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_welcome
@@ -66,22 +67,36 @@ namespace BugigangaDigitalSecurity
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // pictureBox1
+            // pb_principal
             // 
-            this.pictureBox1.Image = global::BugigangaDigitalSecurity.Properties.Resources.detective_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(486, 127);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(300, 300);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pb_principal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_principal.Image = global::BugigangaDigitalSecurity.Properties.Resources.detective_icon;
+            this.pb_principal.Location = new System.Drawing.Point(486, 127);
+            this.pb_principal.Name = "pb_principal";
+            this.pb_principal.Size = new System.Drawing.Size(300, 300);
+            this.pb_principal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_principal.TabIndex = 2;
+            this.pb_principal.TabStop = false;
+            this.pb_principal.Click += new System.EventHandler(this.pb_principal_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Roboto Slab", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(476, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(320, 32);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Bugiganga Digital Security";
             // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pb_principal);
             this.Controls.Add(this.btn_close);
             this.Controls.Add(this.btn_welcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -90,8 +105,9 @@ namespace BugigangaDigitalSecurity
             this.Name = "F_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bugiganga Digital Security";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_principal)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -99,7 +115,8 @@ namespace BugigangaDigitalSecurity
 
         private System.Windows.Forms.Button btn_welcome;
         private System.Windows.Forms.Button btn_close;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pb_principal;
+        private System.Windows.Forms.Label label1;
     }
 }
 

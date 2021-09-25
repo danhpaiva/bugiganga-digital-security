@@ -4,6 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>images\3099517_detective_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
