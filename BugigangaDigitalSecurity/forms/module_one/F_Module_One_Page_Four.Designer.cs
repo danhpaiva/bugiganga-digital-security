@@ -1,7 +1,7 @@
 ﻿
 namespace BugigangaDigitalSecurity
 {
-    partial class F_Module_One
+    partial class F_Module_One_Page_Four
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace BugigangaDigitalSecurity
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Module_One));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Module_One_Page_Four));
             this.btn_close = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btn_next = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_close
@@ -40,44 +40,43 @@ namespace BugigangaDigitalSecurity
             this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.ForeColor = System.Drawing.Color.White;
-            this.btn_close.Location = new System.Drawing.Point(1248, 2);
+            this.btn_close.Location = new System.Drawing.Point(1172, 2);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(30, 30);
-            this.btn_close.TabIndex = 2;
+            this.btn_close.TabIndex = 12;
             this.btn_close.Text = "X";
             this.btn_close.UseVisualStyleBackColor = false;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
-            // label1
+            // btn_next
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(476, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(287, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Primeiros passos dentro da Segurança da Informação";
+            this.btn_next.Location = new System.Drawing.Point(1094, 663);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(97, 45);
+            this.btn_next.TabIndex = 11;
+            this.btn_next.Text = "NEXT";
+            this.btn_next.UseVisualStyleBackColor = true;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
-            // F_Module_One
+            // F_Module_One_Page_Four
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_close);
+            this.Controls.Add(this.btn_next);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "F_Module_One";
+            this.Name = "F_Module_One_Page_Four";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F_Module_One";
+            this.Text = "F_Module_One_Page_Four";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn_close;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_next;
     }
 }

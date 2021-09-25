@@ -18,8 +18,8 @@ namespace BugigangaDigitalSecurity
 
         private void btn_module_one_Click(object sender, EventArgs e)
         {
-            F_Module_One f_Module_One = new F_Module_One();
-            f_Module_One.ShowDialog();
+            F_Module_One_Page_One page_One = new F_Module_One_Page_One();
+            page_One.ShowDialog();
         }
 
         private void btn_check_password_Click(object sender, EventArgs e)

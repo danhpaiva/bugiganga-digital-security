@@ -69,7 +69,7 @@ namespace BugigangaDigitalSecurity
             // 
             // pb_principal
             // 
-            this.pb_principal.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_principal.Cursor = System.Windows.Forms.Cursors.Default;
             this.pb_principal.Image = global::BugigangaDigitalSecurity.Properties.Resources.detective_icon;
             this.pb_principal.Location = new System.Drawing.Point(486, 127);
             this.pb_principal.Name = "pb_principal";
@@ -82,11 +82,11 @@ namespace BugigangaDigitalSecurity
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto Slab", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Roboto Slab", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(476, 54);
+            this.label1.Location = new System.Drawing.Point(413, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(320, 32);
+            this.label1.Size = new System.Drawing.Size(458, 48);
             this.label1.TabIndex = 3;
             this.label1.Text = "Bugiganga Digital Security";
             // 
@@ -94,6 +94,7 @@ namespace BugigangaDigitalSecurity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pb_principal);
