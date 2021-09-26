@@ -33,7 +33,7 @@ namespace BugigangaDigitalSecurity
         {
             if (textBox.TextLength < 8)
             {
-                textBox.Text = "Senha ruim";
+                lbl_password.Text = "Senha ruim";
             }
         }
 
@@ -41,11 +41,11 @@ namespace BugigangaDigitalSecurity
         {
             if (textBox.Text.Contains("@") || textBox.Text.Contains("!") || textBox.Text.Contains(".") || textBox.Text.Contains("_"))
             {
-                textBox.Text = "okay";
+                lbl_password.Text = "okay";
             }
             else
             {
-                textBox.Text = "Precisa ter um simbolo";
+                lbl_password.Text = "Precisa ter um simbolo";
             }
         }
 
