@@ -31,57 +31,31 @@ namespace BugigangaDigitalSecurity
 
         public void CheckPasswordSize(TextBox textBox)
         {
-            if (tb_password.TextLength < 8)
+            if (textBox.TextLength < 8)
             {
-                lbl_password.Text = "Senha ruim";
+                textBox.Text = "Senha ruim";
             }
         }
 
         public void CheckPasswordSimbols(TextBox textBox)
         {
-            if (tb_password.Text.Contains("@"))
+            if (textBox.Text.Contains("@") || textBox.Text.Contains("!") || textBox.Text.Contains(".") || textBox.Text.Contains("_"))
             {
-                lbl_password.Text = "okay";
-            }
-            else if (tb_password.Text.Contains("!"))
-            {
-                lbl_password.Text = "okay";
-            }
-            else if (tb_password.Text.Contains("."))
-            {
-                lbl_password.Text = "okay";
-            }
-            else if (tb_password.Text.Contains("_"))
-            {
-                lbl_password.Text = "okay";
+                textBox.Text = "okay";
             }
             else
             {
-                lbl_password.Text = "Precisa ter um simbolo";
+                textBox.Text = "Precisa ter um simbolo";
             }
         }
 
         public void CheckUpperLetter(TextBox textBox)
         {
-            if (textBox.Text.Contains("A"))
+            if (textBox.Text.Contains("A") || textBox.Text.Contains("E") || textBox.Text.Contains("I") || textBox.Text.Contains("O") || textBox.Text.Contains("U"))
             {
                 lbl_password.Text = "Tem letrona";
             }
-            else if (textBox.Text.Contains("E"))
-            {
-                lbl_password.Text = "Tem letrona";
-            }
-            else if (textBox.Text.Contains("I"))
-            {
-                lbl_password.Text = "Tem letrona";
-            }
-            else if (textBox.Text.Contains("O"))
-            {
-                lbl_password.Text = "Tem letrona";
-            }
-            else if (textBox.Text.Contains("U")) {
-                lbl_password.Text = "Tem letrona";
-            } else
+            else
             {
                 lbl_password.Text = " N Tem letrona";
             }
