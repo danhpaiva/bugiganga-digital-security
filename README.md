@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="BugigangaDigitalSecurity\images\detective_icon.png" width="500" alt="Bugiganga">
+    <img src="BugigangaDigitalSecurity\images\detective_icon.png" width="300" alt="Bugiganga">
   </a>
 </p>
 <p align="center">
