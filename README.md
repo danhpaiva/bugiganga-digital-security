@@ -1,8 +1,8 @@
-<h1>Bugiganga Digital Security</h1>
+<h1>Trinket Digital Security</h1>
 
 <p align="center">
   <a href="#">
-    <img src="BugigangaDigitalSecurity\images\detective_icon.png" width="300" alt="Bugiganga">
+    <img src="BugigangaDigitalSecurity\images\detective_icon.png" width="300" alt="Trinket">
   </a>
 </p>
 <p align="center">
