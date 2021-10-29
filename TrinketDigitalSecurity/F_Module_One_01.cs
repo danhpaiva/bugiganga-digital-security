@@ -23,8 +23,13 @@ namespace TrinketDigitalSecurity
             else
             {
                 lbl_answer_appears.Text = string.Empty;
-                btn_next.Enabled = false;
             }
+        }
+
+        private void btn_next_Click(object sender, EventArgs e)
+        {
+            F_Module_One_02 f_Module_One_02 = new F_Module_One_02();
+            f_Module_One_02.ShowDialog();
         }
     }
 }

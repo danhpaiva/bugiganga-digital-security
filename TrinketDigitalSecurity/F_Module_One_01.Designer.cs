@@ -72,6 +72,7 @@ namespace TrinketDigitalSecurity
             this.btn_next.TabIndex = 3;
             this.btn_next.Text = "NEXT";
             this.btn_next.UseVisualStyleBackColor = true;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
             // F_Module_One_01
             // 
