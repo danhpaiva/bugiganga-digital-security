@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="images\trinket-logo.png" width="300" alt="Trinket">
+    <img src="images\trinket-logo.png" width="400" alt="Trinket">
   </a>
 </p>
 <p align="center">
