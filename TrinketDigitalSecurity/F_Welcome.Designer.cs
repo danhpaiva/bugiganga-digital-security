@@ -34,7 +34,7 @@ namespace TrinketDigitalSecurity
             // 
             // btn_welcome
             // 
-            this.btn_welcome.Location = new System.Drawing.Point(522, 548);
+            this.btn_welcome.Location = new System.Drawing.Point(512, 558);
             this.btn_welcome.Name = "btn_welcome";
             this.btn_welcome.Size = new System.Drawing.Size(229, 64);
             this.btn_welcome.TabIndex = 0;
@@ -46,8 +46,9 @@ namespace TrinketDigitalSecurity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.btn_welcome);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "F_Welcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

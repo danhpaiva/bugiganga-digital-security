@@ -44,4 +44,4 @@ The following tools were used in the construction of the project:
 Developed by <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
 
 <h2 id=licence>🆓 Licence</h2>
-<a href="https://github.com/danhpaiva/bugiganga-digital-security/blob/main/LICENSE" target="_blank">MIT</a>
+This project is under license: <a href="https://github.com/danhpaiva/bugiganga-digital-security/blob/main/LICENSE" target="_blank">MIT</a>
