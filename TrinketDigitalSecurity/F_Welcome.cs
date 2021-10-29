@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TrinketDigitalSecurity
@@ -17,5 +10,10 @@ namespace TrinketDigitalSecurity
             InitializeComponent();
         }
 
+        private void btn_welcome_Click(object sender, EventArgs e)
+        {
+            F_Menu f_Menu = new F_Menu();
+            f_Menu.ShowDialog();
+        }
     }
 }
