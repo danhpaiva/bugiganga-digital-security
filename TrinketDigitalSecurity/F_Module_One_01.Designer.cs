@@ -32,6 +32,7 @@ namespace TrinketDigitalSecurity
             this.label1 = new System.Windows.Forms.Label();
             this.btn_answer = new System.Windows.Forms.Button();
             this.lbl_answer_appears = new System.Windows.Forms.Label();
+            this.btn_next = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,20 +57,32 @@ namespace TrinketDigitalSecurity
             // lbl_answer_appears
             // 
             this.lbl_answer_appears.AutoSize = true;
+            this.lbl_answer_appears.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbl_answer_appears.Location = new System.Drawing.Point(68, 213);
             this.lbl_answer_appears.Name = "lbl_answer_appears";
-            this.lbl_answer_appears.Size = new System.Drawing.Size(38, 15);
+            this.lbl_answer_appears.Size = new System.Drawing.Size(0, 32);
             this.lbl_answer_appears.TabIndex = 2;
-            this.lbl_answer_appears.Text = "label2";
+            // 
+            // btn_next
+            // 
+            this.btn_next.Enabled = false;
+            this.btn_next.Location = new System.Drawing.Point(500, 593);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(157, 23);
+            this.btn_next.TabIndex = 3;
+            this.btn_next.Text = "NEXT";
+            this.btn_next.UseVisualStyleBackColor = true;
             // 
             // F_Module_One_01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.btn_next);
             this.Controls.Add(this.lbl_answer_appears);
             this.Controls.Add(this.btn_answer);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F_Module_One_01";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "F_Module_One_01";
@@ -83,5 +96,6 @@ namespace TrinketDigitalSecurity
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btn_answer;
         private System.Windows.Forms.Label lbl_answer_appears;
+        private System.Windows.Forms.Button btn_next;
     }
 }
