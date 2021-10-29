@@ -1,4 +1,4 @@
-<h1>Trinket Digital Security</h1>
+<h1 align="center">Trinket Digital Security</h1>
 
 <p align="center">
   <a href="#">
