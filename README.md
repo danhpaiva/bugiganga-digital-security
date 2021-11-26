@@ -25,7 +25,7 @@
 <h2 id=objective>📜 Objective</h2>
 
 The goal is to use a C# language to build an app to inform about Digital Security.<br>
-We use the .Net 5 SDK.<br>
+We use the .Net 6 SDK.<br>
 And we applied the Windows Forms concept to make the app.
 
 <h2 id=installation>☑️ Installation</h2>
@@ -35,10 +35,10 @@ And we applied the Windows Forms concept to make the app.
 <h2 id=technology>🧰 Technology</h2>
 The following tools were used in the construction of the project:
 
-- IDE: <a href="https://visualstudio.microsoft.com/pt-br/vs/">Visual Studio 2019</a>
+- IDE: <a href="https://visualstudio.microsoft.com/pt-br/vs/">Visual Studio 2022</a>
 - Styles: <a href="https://www.iconfinder.com/">IconFinder</a> | 
   <a href="https://www.pexels.com/pt-br/">Pexels</a>
-- Requirement SDK: <a href="https://dotnet.microsoft.com/download/dotnet/5.0">.Net 5</a>
+- Requirement SDK: <a href="https://dotnet.microsoft.com/download">.Net 6</a>
 
 <h2 id=author>😄 Author</h2>
 Developed by <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
