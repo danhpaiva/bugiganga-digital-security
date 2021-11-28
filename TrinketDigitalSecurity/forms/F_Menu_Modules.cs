@@ -29,5 +29,11 @@
             F_M_Three_01 f_M_Three_01 = new F_M_Three_01();
             f_M_Three_01.ShowDialog();
         }
+
+        private void btn_module_four_Click(object sender, EventArgs e)
+        {
+            F_M_Four_01 f_M_Four_01 = new F_M_Four_01();
+            f_M_Four_01.ShowDialog();
+        }
     }
 }

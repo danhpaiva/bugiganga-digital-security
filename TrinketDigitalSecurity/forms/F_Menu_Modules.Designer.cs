@@ -115,6 +115,7 @@
             this.btn_module_four.Size = new System.Drawing.Size(140, 140);
             this.btn_module_four.TabIndex = 8;
             this.btn_module_four.UseVisualStyleBackColor = false;
+            this.btn_module_four.Click += new System.EventHandler(this.btn_module_four_Click);
             // 
             // btn_module_five
             // 
