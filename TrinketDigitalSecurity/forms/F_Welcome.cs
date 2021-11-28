@@ -16,6 +16,7 @@ namespace TrinketDigitalSecurity
         {
             F_Intro f_Intro = new F_Intro();
             f_Intro.ShowDialog();
+            Close();
         }
     }
 }

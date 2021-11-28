@@ -16,6 +16,7 @@
         {
             F_Menu_Modules f_Menu_Modules = new F_Menu_Modules();
             f_Menu_Modules.ShowDialog(this);
+            this.Close();
         }
     }
 }
