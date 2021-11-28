@@ -131,6 +131,7 @@
             this.btn_module_five.Size = new System.Drawing.Size(140, 140);
             this.btn_module_five.TabIndex = 9;
             this.btn_module_five.UseVisualStyleBackColor = false;
+            this.btn_module_five.Click += new System.EventHandler(this.btn_module_five_Click);
             // 
             // F_Menu_Modules
             // 

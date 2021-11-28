@@ -35,5 +35,11 @@
             F_M_Four_01 f_M_Four_01 = new F_M_Four_01();
             f_M_Four_01.ShowDialog();
         }
+
+        private void btn_module_five_Click(object sender, EventArgs e)
+        {
+            F_M_Five_01 f_M_Five_01 = new F_M_Five_01();
+            f_M_Five_01.ShowDialog();
+        }
     }
 }
