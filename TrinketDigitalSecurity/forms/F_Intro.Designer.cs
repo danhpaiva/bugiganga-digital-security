@@ -30,6 +30,7 @@
         {
             this.btn_exit = new System.Windows.Forms.Button();
             this.btn_next = new System.Windows.Forms.Button();
+            this.btn_danhpaiva = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_exit
@@ -64,12 +65,28 @@
             this.btn_next.UseVisualStyleBackColor = false;
             this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
             // 
+            // btn_danhpaiva
+            // 
+            this.btn_danhpaiva.BackColor = System.Drawing.Color.Transparent;
+            this.btn_danhpaiva.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_danhpaiva.FlatAppearance.BorderSize = 0;
+            this.btn_danhpaiva.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_danhpaiva.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_danhpaiva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_danhpaiva.Location = new System.Drawing.Point(78, 476);
+            this.btn_danhpaiva.Name = "btn_danhpaiva";
+            this.btn_danhpaiva.Size = new System.Drawing.Size(72, 67);
+            this.btn_danhpaiva.TabIndex = 4;
+            this.btn_danhpaiva.UseVisualStyleBackColor = false;
+            this.btn_danhpaiva.Click += new System.EventHandler(this.btn_danhpaiva_Click);
+            // 
             // F_Intro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_2_1001;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.btn_danhpaiva);
             this.Controls.Add(this.btn_next);
             this.Controls.Add(this.btn_exit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -84,5 +101,6 @@
 
         private Button btn_exit;
         private Button btn_next;
+        private Button btn_danhpaiva;
     }
 }
