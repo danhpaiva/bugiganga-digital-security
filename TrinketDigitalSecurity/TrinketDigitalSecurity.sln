@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrinketDigitalSecurity", "TrinketDigitalSecurity.csproj", "{2CC5F9BA-AFFA-4C2E-A625-21DAC7A929E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrinketDigitalSecurity", "TrinketDigitalSecurity.csproj", "{4FD0AC25-685A-41A5-9DE3-91B747686A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2CC5F9BA-AFFA-4C2E-A625-21DAC7A929E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CC5F9BA-AFFA-4C2E-A625-21DAC7A929E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CC5F9BA-AFFA-4C2E-A625-21DAC7A929E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CC5F9BA-AFFA-4C2E-A625-21DAC7A929E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD0AC25-685A-41A5-9DE3-91B747686A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD0AC25-685A-41A5-9DE3-91B747686A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD0AC25-685A-41A5-9DE3-91B747686A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD0AC25-685A-41A5-9DE3-91B747686A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A13EFB98-9E98-4E12-BF94-2FB1AF4AE684}
+		SolutionGuid = {3435784C-4C92-4852-83F5-B87C1A592084}
 	EndGlobalSection
 EndGlobal
