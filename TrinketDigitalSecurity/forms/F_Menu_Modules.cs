@@ -23,5 +23,11 @@
             F_M_Two_01 f_M_Two_01 = new F_M_Two_01();
             f_M_Two_01.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            F_M_Three_01 f_M_Three_01 = new F_M_Three_01();
+            f_M_Three_01.ShowDialog();
+        }
     }
 }

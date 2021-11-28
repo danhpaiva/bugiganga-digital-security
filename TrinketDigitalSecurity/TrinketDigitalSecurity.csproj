@@ -33,4 +33,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="forms\module_four\" />
+    <Folder Include="forms\module_five\" />
+  </ItemGroup>
+
 </Project>
