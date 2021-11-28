@@ -42,9 +42,9 @@
             this.btn_module_one.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_module_one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_module_one.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_module_one.Location = new System.Drawing.Point(193, 151);
+            this.btn_module_one.Location = new System.Drawing.Point(196, 151);
             this.btn_module_one.Name = "btn_module_one";
-            this.btn_module_one.Size = new System.Drawing.Size(146, 149);
+            this.btn_module_one.Size = new System.Drawing.Size(140, 140);
             this.btn_module_one.TabIndex = 4;
             this.btn_module_one.UseVisualStyleBackColor = false;
             this.btn_module_one.Click += new System.EventHandler(this.btn_module_one_Click);
@@ -58,9 +58,9 @@
             this.btn_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_exit.Location = new System.Drawing.Point(1236, 0);
+            this.btn_exit.Location = new System.Drawing.Point(1242, 0);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(45, 41);
+            this.btn_exit.Size = new System.Drawing.Size(35, 35);
             this.btn_exit.TabIndex = 5;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);

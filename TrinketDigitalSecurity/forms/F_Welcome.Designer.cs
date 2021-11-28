@@ -43,9 +43,9 @@
             this.btn_enter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_enter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_enter.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_enter.Location = new System.Drawing.Point(518, 474);
+            this.btn_enter.Location = new System.Drawing.Point(525, 477);
             this.btn_enter.Name = "btn_enter";
-            this.btn_enter.Size = new System.Drawing.Size(242, 69);
+            this.btn_enter.Size = new System.Drawing.Size(230, 65);
             this.btn_enter.TabIndex = 0;
             this.btn_enter.UseVisualStyleBackColor = false;
             this.btn_enter.Click += new System.EventHandler(this.btn_enter_Click);
@@ -59,9 +59,9 @@
             this.btn_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_exit.Location = new System.Drawing.Point(40, 667);
+            this.btn_exit.Location = new System.Drawing.Point(44, 670);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(78, 41);
+            this.btn_exit.Size = new System.Drawing.Size(70, 30);
             this.btn_exit.TabIndex = 1;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);

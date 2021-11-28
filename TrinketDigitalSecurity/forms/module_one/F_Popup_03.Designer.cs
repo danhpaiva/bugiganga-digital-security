@@ -42,7 +42,7 @@
             this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
             this.btn_exit.Location = new System.Drawing.Point(988, 156);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(33, 32);
+            this.btn_exit.Size = new System.Drawing.Size(30, 30);
             this.btn_exit.TabIndex = 10;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
