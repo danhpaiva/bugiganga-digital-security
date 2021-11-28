@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Welcome));
             this.btn_enter = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_home_page = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_enter
@@ -65,12 +66,28 @@
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
+            // btn_home_page
+            // 
+            this.btn_home_page.BackColor = System.Drawing.Color.Transparent;
+            this.btn_home_page.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_home_page.FlatAppearance.BorderSize = 0;
+            this.btn_home_page.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_home_page.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_home_page.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_home_page.Location = new System.Drawing.Point(318, 166);
+            this.btn_home_page.Name = "btn_home_page";
+            this.btn_home_page.Size = new System.Drawing.Size(650, 200);
+            this.btn_home_page.TabIndex = 2;
+            this.btn_home_page.UseVisualStyleBackColor = false;
+            this.btn_home_page.Click += new System.EventHandler(this.btn_home_page_Click);
+            // 
             // F_Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_1_100;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.btn_home_page);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_enter);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -86,5 +103,6 @@
 
         private Button btn_enter;
         private Button btn_exit;
+        private Button btn_home_page;
     }
 }
