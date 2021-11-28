@@ -143,6 +143,16 @@ namespace TrinketDigitalSecurity.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_6_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 6-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Prancheta_7_100 {
             get {
                 object obj = ResourceManager.GetObject("Prancheta 7-100", resourceCulture);
