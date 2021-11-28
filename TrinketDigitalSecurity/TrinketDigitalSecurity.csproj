@@ -33,8 +33,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="forms\module_five\" />
-  </ItemGroup>
-
 </Project>
