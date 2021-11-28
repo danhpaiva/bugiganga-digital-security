@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_Menu_Modules));
             this.btn_module_one = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_module_two = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_module_one
@@ -42,7 +43,7 @@
             this.btn_module_one.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_module_one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_module_one.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_module_one.Location = new System.Drawing.Point(196, 151);
+            this.btn_module_one.Location = new System.Drawing.Point(196, 155);
             this.btn_module_one.Name = "btn_module_one";
             this.btn_module_one.Size = new System.Drawing.Size(140, 140);
             this.btn_module_one.TabIndex = 4;
@@ -65,12 +66,29 @@
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
+            // btn_module_two
+            // 
+            this.btn_module_two.BackColor = System.Drawing.Color.Transparent;
+            this.btn_module_two.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_module_two.FlatAppearance.BorderSize = 0;
+            this.btn_module_two.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_module_two.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_module_two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_module_two.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_module_two.Location = new System.Drawing.Point(296, 364);
+            this.btn_module_two.Name = "btn_module_two";
+            this.btn_module_two.Size = new System.Drawing.Size(140, 140);
+            this.btn_module_two.TabIndex = 6;
+            this.btn_module_two.UseVisualStyleBackColor = false;
+            this.btn_module_two.Click += new System.EventHandler(this.btn_module_two_Click);
+            // 
             // F_Menu_Modules
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_3_100;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.btn_module_two);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.btn_module_one);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -86,5 +104,6 @@
 
         private Button btn_module_one;
         private Button btn_exit;
+        private Button btn_module_two;
     }
 }

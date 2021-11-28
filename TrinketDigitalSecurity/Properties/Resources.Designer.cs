@@ -73,6 +73,66 @@ namespace TrinketDigitalSecurity.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_11_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 11-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_12_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 12-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_13_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 13-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_14_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 14-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_15_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 15-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Prancheta_16_100 {
+            get {
+                object obj = ResourceManager.GetObject("Prancheta 16-100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Prancheta_2_1001 {
             get {
                 object obj = ResourceManager.GetObject("Prancheta 2-1001", resourceCulture);

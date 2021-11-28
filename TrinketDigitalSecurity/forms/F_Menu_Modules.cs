@@ -17,5 +17,11 @@
             F_M_One_01 f_M_One_01 = new F_M_One_01();
             f_M_One_01.ShowDialog();
         }
+
+        private void btn_module_two_Click(object sender, EventArgs e)
+        {
+            F_M_Two_01 f_M_Two_01 = new F_M_Two_01();
+            f_M_Two_01.ShowDialog();
+        }
     }
 }
