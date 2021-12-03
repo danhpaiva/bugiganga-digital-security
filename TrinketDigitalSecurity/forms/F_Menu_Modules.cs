@@ -14,8 +14,10 @@
 
         private void btn_module_one_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_One_01 f_M_One_01 = new F_M_One_01();
             f_M_One_01.ShowDialog();
+            Show();
         }
 
         private void btn_module_two_Click(object sender, EventArgs e)

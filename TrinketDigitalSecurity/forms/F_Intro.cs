@@ -14,9 +14,10 @@
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            Hide();
             F_Menu_Modules f_Menu_Modules = new F_Menu_Modules();
             f_Menu_Modules.ShowDialog(this);
-            this.Close();
+            Close();
         }
 
         private void btn_danhpaiva_Click(object sender, EventArgs e)
