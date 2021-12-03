@@ -19,6 +19,7 @@
 
         private void btn_back_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_One_02 f_M_One_02 = new F_M_One_02();
             f_M_One_02.ShowDialog();
             Close();

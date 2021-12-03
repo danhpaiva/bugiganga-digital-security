@@ -21,16 +21,18 @@
 
         private void btn_back_Click_1(object sender, EventArgs e)
         {
+            Hide();
             F_M_One_01 f_M_One_01 = new F_M_One_01();
             f_M_One_01.ShowDialog();
-            this.Close();
+            Close();
         }
 
         private void btn_next_Click(object sender, EventArgs e)
         {
-           F_M_One_03 f_M_One_03 = new F_M_One_03();
+            Hide();
+            F_M_One_03 f_M_One_03 = new F_M_One_03();
             f_M_One_03.ShowDialog();
-            this.Close();
+            Close();
         }
 
         private void bnt_popup_01_Click(object sender, EventArgs e)
@@ -47,7 +49,7 @@
 
         private void btn_popup_03_Click(object sender, EventArgs e)
         {
-            F_Popup_03 f_Popup_03 = new F_Popup_03();   
+            F_Popup_03 f_Popup_03 = new F_Popup_03();
             f_Popup_03.ShowDialog();
         }
     }
