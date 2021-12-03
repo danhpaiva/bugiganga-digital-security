@@ -1,6 +1,6 @@
 ﻿namespace TrinketDigitalSecurity
 {
-    partial class F_M_Five_05
+    partial class F_M_Five_04
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_M_Five_05));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_M_Five_04));
             this.btn_exit = new System.Windows.Forms.Button();
-            this.btn_menu = new System.Windows.Forms.Button();
             this.btn_back = new System.Windows.Forms.Button();
+            this.btn_next = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_exit
@@ -43,28 +43,12 @@
             this.btn_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_exit.Location = new System.Drawing.Point(1244, 2);
+            this.btn_exit.Location = new System.Drawing.Point(1243, 1);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(35, 35);
-            this.btn_exit.TabIndex = 12;
+            this.btn_exit.TabIndex = 14;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
-            // 
-            // btn_menu
-            // 
-            this.btn_menu.BackColor = System.Drawing.Color.Transparent;
-            this.btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_menu.FlatAppearance.BorderSize = 0;
-            this.btn_menu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_menu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_menu.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_menu.Location = new System.Drawing.Point(833, 577);
-            this.btn_menu.Name = "btn_menu";
-            this.btn_menu.Size = new System.Drawing.Size(169, 51);
-            this.btn_menu.TabIndex = 13;
-            this.btn_menu.UseVisualStyleBackColor = false;
-            this.btn_menu.Click += new System.EventHandler(this.btn_menu_Click);
             // 
             // btn_back
             // 
@@ -75,27 +59,43 @@
             this.btn_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_back.Location = new System.Drawing.Point(20, 315);
+            this.btn_back.Location = new System.Drawing.Point(27, 314);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(60, 90);
-            this.btn_back.TabIndex = 14;
+            this.btn_back.Size = new System.Drawing.Size(50, 90);
+            this.btn_back.TabIndex = 17;
             this.btn_back.UseVisualStyleBackColor = false;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
-            // F_M_Five_05
+            // btn_next
+            // 
+            this.btn_next.BackColor = System.Drawing.Color.Transparent;
+            this.btn_next.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_next.FlatAppearance.BorderSize = 0;
+            this.btn_next.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_next.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_next.Location = new System.Drawing.Point(1199, 314);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(50, 90);
+            this.btn_next.TabIndex = 18;
+            this.btn_next.UseVisualStyleBackColor = false;
+            this.btn_next.Click += new System.EventHandler(this.btn_next_Click);
+            // 
+            // F_M_Five_04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_43_100;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.btn_next);
             this.Controls.Add(this.btn_back);
-            this.Controls.Add(this.btn_menu);
             this.Controls.Add(this.btn_exit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "F_M_Five_05";
+            this.Name = "F_M_Five_04";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F_M_Five_05";
+            this.Text = "F_M_Five_04";
             this.ResumeLayout(false);
 
         }
@@ -103,7 +103,7 @@
         #endregion
 
         private Button btn_exit;
-        private Button btn_menu;
         private Button btn_back;
+        private Button btn_next;
     }
 }
