@@ -21,7 +21,9 @@
 
         private void btn_next_Click(object sender, EventArgs e)
         {
-            Close ();
+            F_M_Three_11 f_M_Three_11 = new F_M_Three_11();
+            f_M_Three_11.ShowDialog();
+            Close();
         }
     }
 }

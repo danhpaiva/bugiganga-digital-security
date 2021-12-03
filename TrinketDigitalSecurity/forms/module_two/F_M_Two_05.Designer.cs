@@ -1,6 +1,6 @@
 ﻿namespace TrinketDigitalSecurity
 {
-    partial class F_M_One_03
+    partial class F_M_Two_05
     {
         /// <summary>
         /// Required designer variable.
@@ -42,10 +42,10 @@
             this.btn_exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_exit.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_exit.Location = new System.Drawing.Point(1242, 1);
+            this.btn_exit.Location = new System.Drawing.Point(1244, 2);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(35, 35);
-            this.btn_exit.TabIndex = 8;
+            this.btn_exit.TabIndex = 9;
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
@@ -58,10 +58,10 @@
             this.btn_menu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_menu.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_menu.Location = new System.Drawing.Point(835, 577);
+            this.btn_menu.Location = new System.Drawing.Point(834, 577);
             this.btn_menu.Name = "btn_menu";
             this.btn_menu.Size = new System.Drawing.Size(169, 51);
-            this.btn_menu.TabIndex = 9;
+            this.btn_menu.TabIndex = 10;
             this.btn_menu.UseVisualStyleBackColor = false;
             this.btn_menu.Click += new System.EventHandler(this.btn_menu_Click);
             // 
@@ -74,26 +74,26 @@
             this.btn_back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_back.Location = new System.Drawing.Point(21, 316);
+            this.btn_back.Location = new System.Drawing.Point(22, 315);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(60, 90);
-            this.btn_back.TabIndex = 10;
+            this.btn_back.TabIndex = 11;
             this.btn_back.UseVisualStyleBackColor = false;
             this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
-            // F_M_One_03
+            // F_M_Two_05
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_9_100;
+            this.BackgroundImage = global::TrinketDigitalSecurity.Properties.Resources.Prancheta_17_100;
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.btn_menu);
             this.Controls.Add(this.btn_exit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "F_M_One_03";
+            this.Name = "F_M_Two_05";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "F_M_One_03";
+            this.Text = "F_M_Two_05";
             this.ResumeLayout(false);
 
         }

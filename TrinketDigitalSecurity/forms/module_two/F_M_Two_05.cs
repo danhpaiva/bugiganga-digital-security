@@ -1,8 +1,8 @@
 ﻿namespace TrinketDigitalSecurity
 {
-    public partial class F_M_Four_05 : Form
+    public partial class F_M_Two_05 : Form
     {
-        public F_M_Four_05()
+        public F_M_Two_05()
         {
             InitializeComponent();
         }
@@ -12,17 +12,15 @@
             Close();
         }
 
-        private void btn_next_Click(object sender, EventArgs e)
+        private void btn_menu_Click(object sender, EventArgs e)
         {
-            F_M_Four_06 f_M_Four_06 = new F_M_Four_06();
-            f_M_Four_06.ShowDialog();
             Close();
         }
 
         private void btn_back_Click(object sender, EventArgs e)
         {
-            F_M_Four_04 f_M_Four_04 = new F_M_Four_04();
-            f_M_Four_04.ShowDialog();
+            F_M_Two_04 f_M_Two_04 = new F_M_Two_04();
+            f_M_Two_04.ShowDialog();
             Close();
         }
     }

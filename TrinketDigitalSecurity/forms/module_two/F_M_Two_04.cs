@@ -21,6 +21,8 @@
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            F_M_Two_05 f_M_Two_05 = new F_M_Two_05();
+            f_M_Two_05.ShowDialog();
             Close();
         }
 

@@ -23,5 +23,20 @@
         {
             System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "https://linkedin.com/in/danhpaiva");
         }
+
+        private void btn_douglas_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "https://www.linkedin.com/in/douglas-ramos-78362099/");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "https://www.linkedin.com/in/herigson/");
+        }
+
+        private void btn_pedrosa_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(@"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", "https://www.linkedin.com/in/felipe-pedrosa-3bba25223/");
+        }
     }
 }
