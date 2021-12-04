@@ -14,9 +14,6 @@
 
         private void btn_menu_Click(object sender, EventArgs e)
         {
-            Hide();
-            F_Menu_Modules f_Menu_Modules = new F_Menu_Modules();
-            f_Menu_Modules.ShowDialog();
             Close();
         }
 

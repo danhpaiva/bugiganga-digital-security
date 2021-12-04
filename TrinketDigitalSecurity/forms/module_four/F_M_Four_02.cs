@@ -14,6 +14,7 @@
 
         private void btn_back_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_Four_01 f_M_Four_01 = new F_M_Four_01();
             f_M_Four_01.ShowDialog();
             Close();
@@ -21,6 +22,7 @@
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_Four_03 f_M_Four_03 = new F_M_Four_03();
             f_M_Four_03.ShowDialog();
             Close();
