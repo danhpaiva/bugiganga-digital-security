@@ -19,7 +19,7 @@
 </p>
 
 <h2 align="center" id=status> 
-	✔️ in progress ✔️
+	✔️ Concluded ✔️
 </h2>
 
 <h2 id=objective>📜 Objective</h2>
