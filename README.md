@@ -30,7 +30,10 @@ And we applied the Windows Forms concept to make the app.
 
 <h2 id=installation>☑️ Installation</h2>
 
-1. Download the repository
+1. Go to: <a href="https://github.com/danhpaiva/trinket-digital-security/releases/tag/v1.0.0">release page</a>
+2. Download the project
+3. Install the setup
+4. Enjoy the course
 
 <h2 id=technology>🧰 Technology</h2>
 The following tools were used in the construction of the project:
