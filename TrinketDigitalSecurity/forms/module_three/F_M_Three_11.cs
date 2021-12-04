@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace TrinketDigitalSecurity
+﻿namespace TrinketDigitalSecurity
 {
     public partial class F_M_Three_11 : Form
     {
@@ -24,11 +14,15 @@ namespace TrinketDigitalSecurity
 
         private void btn_menu_Click(object sender, EventArgs e)
         {
+            Hide();
+            F_Menu_Modules f_Menu_Modules = new F_Menu_Modules();
+            f_Menu_Modules.ShowDialog();
             Close();
         }
 
         private void btn_back_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_Three_10 f_M_Three_10 = new F_M_Three_10();
             f_M_Three_10.ShowDialog();
             Close();

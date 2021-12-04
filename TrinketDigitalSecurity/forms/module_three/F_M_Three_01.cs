@@ -19,6 +19,7 @@
 
         private void btn_next_Click(object sender, EventArgs e)
         {
+            Hide();
             F_M_Three_02 f_M_Three_02 = new F_M_Three_02();
             f_M_Three_02.ShowDialog();
             Close();
