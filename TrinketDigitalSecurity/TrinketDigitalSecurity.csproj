@@ -7,6 +7,14 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Description>The goal is to use a C# language to build an app to inform about Digital Security.
+We use the .Net 6 SDK.
+And we applied the Windows Forms concept to make the app.</Description>
+    <Copyright>Daniel Paiva</Copyright>
+    <PackageProjectUrl>https://github.com/danhpaiva/trinket-digital-security</PackageProjectUrl>
+    <PackageIcon>trinket-logo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/danhpaiva/trinket-digital-security</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +24,13 @@
 
   <ItemGroup>
     <Content Include="icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\logo\trinket-logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
